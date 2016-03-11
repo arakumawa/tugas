@@ -1,0 +1,63 @@
+#header{
+	width:102%; height:50px; border:1px solid black; background:#4D5B67;
+	margin-top:-8px; margin-left:-8px; position: absolute;
+}
+#header:hover{
+	background-color:black;
+	}
+#footer{
+	width:102%; height:50px; background-color:#4D5B67; position:fixed; bottom:0px;left:0px;
+}
+#footer:hover{
+	background-color:black;
+	}
+#nama{
+	color: #AAFFBB;
+	}
+#nama:hover{
+	color:lime;
+	}
+#kiri{
+	float:left; width:15%; height:85%; border-right:1px solid black;  border-bottom:1px solid black; margin-left:-10px; border-radius:10px; -moz-border-radius:10px;-webkit-border-radius:10px; box-shadow:10px 10px 10px #000000; background-color:brown;
+}
+#kiri:hover{ /*perubahan efek pada objek*/
+	background:red;
+	/*transform:rotate(10deg);transform:translate(30px, 50px);transform:skew(30deg, 20deg);*/
+}
+a{
+	color:orange;
+	}
+a:hover{
+	color:lime;
+	}
+#kanan{
+	float:right; width:83%; padding-top:40px; padding-bottom:50px; 
+}
+#info-user{
+	margin-top:55px; margin-left:10px; margin-right:10px; border:5px solid #ABCDEF; 
+	padding:4px 5px 4px 5px;
+	}
+#menu{
+	margin-left:10px; font-size:17px; font-family:comic sans MS;
+	}
+#menu h4 {
+	margin-bottom:-10px; color:#AAFFBB;
+	}
+#menu h4:hover {
+	color:lime;
+	}
+#menu ul {
+	margin-left:-25px;
+	}
+#menu ul li a{
+	text-decoration:none; font-size:17px; font-family:comic sans MS;
+	}
+.table{
+	border:2px solid #5262BA; width:100%; margin-top:10px;
+}
+.table-header{
+	background-color: #4D5B67; color: #ffffff;
+}
+#judul{
+	border:2px solid #5262BA; font-size:40px;
+	}
